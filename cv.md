@@ -11,6 +11,7 @@
    - Java Script : basic.
    - Git : basic.
    - Java : Core.
+   - SASS preprocessors : basic.
    - Also in the process of studying: MySQL.
 5. ##### Example of my code:
  ```java 
