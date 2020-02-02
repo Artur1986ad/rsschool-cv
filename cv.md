@@ -2,6 +2,7 @@
  2. ##### Contact Info:
     - Email: al9966@mail.ru
     - Skype: adrenalin86ad
+    - vk.com: id542454920
     - Discord: Артур#7997
 3. ##### Summary:
      from the age of 18 I began to be interested in programming. Today I am studying html, js, css and have completed a half course java on the JavaRush resource. All my efforts are directed to become Frontend Developer. For this, I have many qualities: determination, perseverance, desire to develop in this area.
