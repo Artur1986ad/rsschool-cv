@@ -1,66 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>My resume</title>
 </head>
+
 <body>
-   <main>
-       <figure>
-           <img src="./cat.jpg" alt="Good cat">
+    <header>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts </a></li>
+                <li class="nav-item"><a href="#about_me" class="nav-link"> About</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link"> Skills </a></li>
+                <li class="nav-item"><a href="#code_example" class="nav-link"> Code Example </a></li>
+                <li class="nav-item"><a href="#experience" class="nav-link">Experience </a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects </a></li>
+                <li class="nav-item"><a href="#education" class="nav-link"> Education </a></li>
+                <li class="nav-item"><a href="#languages" class="nav-link"> English </a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <figure>
+            <img src="./assets/image/cat.jpg" alt="Good cat">
+            <h1 class='developer'>Artur Pakhomau</h1>
         </figure>
-        <section>
-            <ol>
-                <article>
-                    <li>
-                        <aside>
-                            <strong>Artur Pakhomau</strong>
-                        </aside>
-                    </li>
-                </article>
-                <br>
-                <article>
-                    <li><strong>Contact Info:</strong>
-                        <aside>
-                            <ul>
-                                <br>
-                                <li>Email: al9966@mail.ru</li>
-                                <li>Skype: adrenalin86ad</li>
-                                <li>Discord: Артур#7997</li>
-                            </ul>
-                        </aside>
-                    </li>
-                </article>
-                <br>
-                <article>
-                    <li><strong>Summary:</strong></li>
-                        <aside>
-                        <p>from the age of 18 I began to be interested in programming. Today I am studying html, js, css and have completed a half course java on the JavaRush resource. All my efforts are directed to become Frontend Developer. For this, I have many qualities: determination, perseverance, desire to develop in this area.</p>
-                        </aside>
-                </article>
-                <article>
-                        <li><strong>Skills:</strong>
-                            <aside>
-                                <ul>
-                                        <br>
-                                        <li>HTML4-5 : basic.</li>
-                                        <li>CSS3 : basic.</li>
-                                        <li>Java Script : basic.</li>
-                                        <li>Git : basic.</li>
-                                        <li>Java : Core.</li>
-                                        <li>Also in the process of studying: MySQL.</li>
-                                </ul>
-                            </aside>
-                        </li>
-                    </article>
-                    <br>
-                    <article>
-                            <li><strong>Example of my code:</strong>
-                                <aside>
-                                    <p><code> public static void main(String[] args) {<br>
+        <article id="contacts">
+            <h2>Contact Info:</h2>
+            <aside>
+                <ul>
+                    <li>Email: al9966@mail.ru</li>
+                    <li>Skype: adrenalin86ad</li>
+                    <li>Discord: Артур#7997</li>
+                </ul>
+            </aside>
+        </article>
+        <br>
+        <article id="about_me">
+            <h2>Summary:</h2>
+            <aside>
+                <p>from the age of 18 I began to be interested in programming. Today I am studying html, js, css
+                    and have completed a half course java on the JavaRush resource. All my efforts are directed
+                    to become Frontend Developer. For this, I have many qualities: determination, perseverance,
+                    desire to develop in this area.</p>
+            </aside>
+        </article>
+        <article id="skills">
+            <h2>Skills:</h2>
+            <aside>
+                <ul>
+                    <li>HTML4-5 : basic.</li>
+                    <li>CSS3 : basic.</li>
+                    <li>Java Script : basic.</li>
+                    <li>Git : basic.</li>
+                    <li>Java : Core.</li>
+                    <li>Also in the process of studying: MySQL.</li>
+                </ul>
+            </aside>
+        </article>
+        <br>
+        <article id="code_example">
+            <h2>Example of my code:</h2>
+            <aside>
+                <p><code> public static void main(String[] args) {<br>
                                             initFields();<br>
                                         createInitialCells();<br>
                                         while(!endOfGame){<br>
@@ -70,38 +76,47 @@
                                         }<br>
                                         graphicsModule.destroy();<br>
                                     }</code></p>
-                                </aside>
-                            </li>
-                        </article>
-                        <article>
-                                <li><strong>Experience:</strong>
-                                    <aside>
-                                        <p>i do not have much experience in page layout, but I also made templates for two sites. I hope in this course to gain more practical experience and theoretical knowledge.</p>
-                                    </aside>
-                                </li>
-                            <article>
-                            <br>
-                            <article>
-                                <li><strong>Education:</strong>
-                                    <aside>
-                                        <ul>
-                                            <br>
-                                            <li>Graduated higher.</li>
-                                            <li>Took Java developer courses in 2018.</li>
-                                        </ul>
-                                    </aside>
-                                </li>
-                            </article>
-                            <br>
-                            <article>
-                                <li><strong>English:</strong>
-                                    <aside>
-                                        <p>I study English from school, I also went to courses for some time, in the same courses my level of English was determined, it is level A2, closer to level B1.</p>
-                                    </aside>
-                                </li>
-                            </article>
-                        </ol>
-                    </section>
-   </main>> 
+            </aside>
+        </article>
+        <article id="projects">
+            <h2>Projects:</h2>
+            <aside>
+                <p>I don't have any projects, but soon you will see them</p>
+            </aside>
+            <article id="experience">
+                <h2>Experience:</h2>
+                <aside>
+                    <p>I do not have much experience in page layout, but I also made templates for two
+                        sites. I hope in this course to gain more practical experience and theoretical
+                        knowledge.</p>
+                </aside>
+            </article>
+            <article id="education">
+                <h2>Education:</h2>
+                <aside>
+                    <ul>
+                        <li>Graduated higher.</li>
+                        <li>Took Java developer courses in 2018.</li>
+                    </ul>
+                </aside>
+            </article>
+            <article id="languages">
+                <h2>English:</h2>
+                <aside>
+                    <p>I study English from school, I also went to courses for some time, in the
+                        same courses my level of English was determined, it is level A2, closer to
+                        level B1.</p>
+                </aside>
+            </article>
+        </article>
+    </main>
+    <footer>
+        <p><a href="https://github.com/Artur1986ad"><img class="image_github" src="./assets/image/github.svg"
+                    alt="my git"></a></p>
+        <p class="current_year">2022</p>
+        <p><a href="https://rs.school/js/"><img class="image_rss" src="https://rs.school/images/rs_school_js.svg"
+                    alt="image rss"></a></p>
+    </footer>
 </body>
+
 </html>
